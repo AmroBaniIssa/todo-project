@@ -4,7 +4,7 @@ body{
     border: 3px solid black;
 }
 header{
-    background-color: aqua;
+    background-color: #CCD5AE;
     position: relative;
     height: 60px;
 }
@@ -35,13 +35,15 @@ header img{
     top: 5px;
     }
 main{
-    background-color: cornsilk;
+    background-color: #E9EDC9;
     height: 200px;
     position: relative;
 }
 table {
-    /* position: absolute; */
-    left: 50px;
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    /* height: 700px; */
     /* border: 3px solid red; */
     margin: 10px;
     margin-left: 50px;
@@ -52,5 +54,5 @@ table td, th{
 }
 footer{
     position: relative;
-    background-color: cyan;
+    background-color: #C8B6A6;
 }

@@ -20,3 +20,23 @@ if(age>0){
 }else{
     alert(" your age should be > 0")
 }}
+
+const answers=[];
+
+let answer1= prompt("do you like to play football?")
+let answer2= prompt("do you like to eat healthy food?")
+let answer3= prompt("do you finished your homework?")
+
+if (answer1===""){
+    answer1="invalid"
+}
+if (answer2===""){
+    answer2="invalid"
+}
+if (answer3===""){
+    answer3="invalid"
+}
+answers.push(answer1);
+answers.push(answer2);
+answers.push(answer3);
+console.log(answers);
