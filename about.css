@@ -4,7 +4,7 @@ body{
     border: 3px solid black;
 }
 header{
-    background-color: aqua;
+    background-color: #CCD5AE;
     position: relative;
     height: 60px;
 }
@@ -37,7 +37,7 @@ header img{
 
 main{
     position: relative;
-    background-color:cornsilk ;
+    background-color:#E9EDC9 ;
     height: 200px;
     margin: 20px;
 }
@@ -64,7 +64,7 @@ margin-left: 150px;
 }
 footer{
     position: relative;
-    background-color: aqua;
+    background-color: #C8B6A6;
 }
 footer div{
     background-color:cornsilk;
@@ -77,4 +77,8 @@ footer div{
 }
 footer div p{
     color: blue;
+}
+footer img{
+    position:absolute;
+    
 }
