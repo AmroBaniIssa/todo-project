@@ -39,4 +39,18 @@ if (answer3===""){
 answers.push(answer1);
 answers.push(answer2);
 answers.push(answer3);
-console.log(answers);
+
+for (let i =0; i<answers.length;i++){
+    if(i==0){
+        console.log("do you like to play football?"+answers[i]);
+    }
+    if(i==1){
+        console.log("do you like to eat healthy food?"+answers[i]);
+
+    }
+    if(i==2){
+        console.log("do you finished your homework?"+answers[i]);
+
+    }
+
+}
